@@ -23,7 +23,7 @@ By default everything is wired to 24V. If you would like to run a different volt
 
 **The following materials are needed for building the board:**
 
-1x - SLW20R-1C7 (Use the one that comes in FFC kit)
+1x - SLW20R-1C7LF (Use the one that comes in FFC kit)
 
 1x - MOLEX 436500200 (for microfit version)
 
