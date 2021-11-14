@@ -13,6 +13,7 @@ Here is the XT30 version. (this one is denoted with "X" in the version number in
 
 
 Here is the pinout for the board.
+
 ![image](https://user-images.githubusercontent.com/88988273/141663864-c868aeac-5b89-4ef9-9683-bba137d24fdd.png)
 
 
