@@ -12,8 +12,9 @@ Here is the XT30 version. (this one is denoted with "X" in the version number in
 ![Screenshot 2021-09-30 172016](https://user-images.githubusercontent.com/88988273/135537817-4cdc0cac-7621-4da6-8ad7-c88fc26d738b.png)
 
 
-Here is the pinout for the board. This also has a table that shows what the origional FFC pinout was and what I remapped some of the pins to. 
-![image](https://user-images.githubusercontent.com/88988273/139965145-e1271118-b8e9-4ef4-a4cc-836164b487c6.png)
+Here is the pinout for the board.
+![image](https://user-images.githubusercontent.com/88988273/141663864-c868aeac-5b89-4ef9-9683-bba137d24fdd.png)
+
 
 
 By default everything is wired to 24V. If you would like to run a different voltage to a component, simply cut the corresponding trace (where the dash line is shown) and bridge the middle pin to the "Alt V" pin. If you ever want to convert it back to 24V, the pins on top are there to bridge back over the cut trace.
