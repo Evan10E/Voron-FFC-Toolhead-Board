@@ -14,11 +14,12 @@ Here is the XT30 version. (this one is denoted with "X" in the version number in
 
 Here is the pinout for the board.
 
-![image](https://user-images.githubusercontent.com/88988273/147166781-29ba472f-0c12-47d0-bc03-362e2d69663d.png)
+![image](https://user-images.githubusercontent.com/88988273/147413661-24552c43-1cfb-40ad-ad79-2a22d37009e2.png)
+The majority of components on the board all share the same 24V+, with the "signals" being ground. For example, your HEF signal will go to the ground side of your fan port on your controller. This means when you are wiring everything, many of the connectors going into your controller will only have 1 wire. The 2 thermistors share a common ground, therefore, you should connect the signal sides to the pin on your controller that is not the ground. The heater will only have ground going to the heater pin on your controller. Ground can go to a powersupply ground or a ground on the controller. Then the +24V will go directly to your powersupply.
 
 
 
-By default everything is wired to 24V. If you would like to run a different voltage to a component, simply cut the corresponding trace (where the dash line is shown) and bridge the middle pin to the "Alt V" pin. If you ever want to convert it back to 24V, the pins on top are there to bridge back over the cut trace.
+If you would like to run a different voltage to a component, simply cut the corresponding trace (where the dash line is shown on the back) and bridge the middle pin to the "Alt V" pin. If you ever want to convert it back to 24V, the pins on top are there to bridge back over the cut trace.
 
 ![image](https://user-images.githubusercontent.com/88988273/135538372-7765fff0-e6c2-4675-bba5-b7b5dacc4b92.png)
 
